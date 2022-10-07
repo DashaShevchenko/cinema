@@ -9,5 +9,5 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 public interface TicketRepository extends JpaRepository<Ticket, Long>, JpaSpecificationExecutor<Ticket> {
 
-    Page<Ticket> findAllPage(Specification<Ticket> spec, Pageable pageable);
+    Page<Ticket> findAll(Specification<Ticket> spec, Pageable pageable);
 }

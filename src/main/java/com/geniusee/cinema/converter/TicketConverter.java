@@ -1,6 +1,5 @@
 package com.geniusee.cinema.converter;
 
-import com.geniusee.cinema.dto.MovieDto;
 import com.geniusee.cinema.dto.TicketDto;
 import com.geniusee.cinema.persistance.entity.Movie;
 import com.geniusee.cinema.persistance.entity.Ticket;

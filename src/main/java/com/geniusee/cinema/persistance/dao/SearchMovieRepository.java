@@ -1,6 +1,5 @@
 package com.geniusee.cinema.persistance.dao;
 
-import com.geniusee.cinema.dto.MovieDto;
 import com.geniusee.cinema.persistance.entity.Movie;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
